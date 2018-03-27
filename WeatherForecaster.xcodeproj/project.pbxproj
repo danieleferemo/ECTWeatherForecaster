@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97222C08C3A61908DFF98CEA /* Pods_WeatherForecaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A5A20CB0584F121904EE4F /* Pods_WeatherForecaster.framework */; };
 		9C39C9382065794B0036BD9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C39C9372065794B0036BD9E /* AppDelegate.m */; };
 		9C39C93A2065794B0036BD9E /* WeatherForecaster-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 9C39C9392065794B0036BD9E /* WeatherForecaster-Prefix.pch */; };
 		9C39C93C2065794B0036BD9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39C93B2065794B0036BD9E /* Assets.xcassets */; };
 		9C39C93F2065794B0036BD9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C39C93D2065794B0036BD9E /* LaunchScreen.storyboard */; };
 		9C39C9422065794B0036BD9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C39C9412065794B0036BD9E /* main.m */; };
+		9C4B7426206798B300CC28C1 /* ECTWeeklyForecastTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B7425206798B300CC28C1 /* ECTWeeklyForecastTVC.m */; };
+		9C4B742E20679BA000CC28C1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B742D20679BA000CC28C1 /* Reachability.m */; };
+		9C4B743620679C1500CC28C1 /* ECTReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B743520679C1500CC28C1 /* ECTReachabilityManager.m */; };
+		9C4B74502067A28000CC28C1 /* ECTHTTPClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B744F2067A28000CC28C1 /* ECTHTTPClientManager.m */; };
+		9C4B74532067A3FB00CC28C1 /* ECTAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B74522067A3FB00CC28C1 /* ECTAppConstants.m */; };
+		9C4B74562067A40900CC28C1 /* ECTUtilityMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B74552067A40900CC28C1 /* ECTUtilityMethods.m */; };
+		9C4B745A2067A74400CC28C1 /* ECTForecasterStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B74592067A74400CC28C1 /* ECTForecasterStore.m */; };
+		9C4B74602067B1B600CC28C1 /* ECTWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B745F2067B1B600CC28C1 /* ECTWeather.m */; };
+		9C4B74662067B22700CC28C1 /* ECTForecastData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B74652067B22700CC28C1 /* ECTForecastData.m */; };
+		9C4B746C2067ECAB00CC28C1 /* ECTForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B746B2067ECAB00CC28C1 /* ECTForecast.m */; };
+		9C4B748420680D4400CC28C1 /* ECTWeeklyForecastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B748320680D4400CC28C1 /* ECTWeeklyForecastCell.m */; };
+		9C4B74862069466000CC28C1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4B74852069466000CC28C1 /* CoreData.framework */; };
+		9C4B74902069B90100CC28C1 /* ECTArchiveWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B748F2069B90100CC28C1 /* ECTArchiveWeather.m */; };
+		9C4B74932069BAA900CC28C1 /* ECTWeatherArchiveStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B74922069BAA900CC28C1 /* ECTWeatherArchiveStore.m */; };
+		9CDF4EF1206ACD02008887DB /* ECTDailyForecastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF4EEF206ACD02008887DB /* ECTDailyForecastCell.m */; };
+		9CDF4EF2206ACD02008887DB /* ECTDailyForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF4EF0206ACD02008887DB /* ECTDailyForecastCell.xib */; };
+		9CDF4EF8206ACEC8008887DB /* ECTDailyForecastTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF4EF7206ACEC8008887DB /* ECTDailyForecastTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34227352BA40A5B7256770E1 /* Pods-WeatherForecaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherForecaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherForecaster/Pods-WeatherForecaster.release.xcconfig"; sourceTree = "<group>"; };
+		6FB98A3D77FDDFB393E522BF /* Pods-WeatherForecaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherForecaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherForecaster/Pods-WeatherForecaster.debug.xcconfig"; sourceTree = "<group>"; };
 		9C39C9332065794B0036BD9E /* WeatherForecaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForecaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C39C9362065794B0036BD9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C39C9372065794B0036BD9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -23,6 +43,40 @@
 		9C39C93E2065794B0036BD9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C39C9402065794B0036BD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C39C9412065794B0036BD9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C4B7424206798B300CC28C1 /* ECTWeeklyForecastTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTWeeklyForecastTVC.h; sourceTree = "<group>"; };
+		9C4B7425206798B300CC28C1 /* ECTWeeklyForecastTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTWeeklyForecastTVC.m; sourceTree = "<group>"; };
+		9C4B742C20679BA000CC28C1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9C4B742D20679BA000CC28C1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9C4B743420679C1500CC28C1 /* ECTReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTReachabilityManager.h; sourceTree = "<group>"; };
+		9C4B743520679C1500CC28C1 /* ECTReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTReachabilityManager.m; sourceTree = "<group>"; };
+		9C4B744E2067A28000CC28C1 /* ECTHTTPClientManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTHTTPClientManager.h; sourceTree = "<group>"; };
+		9C4B744F2067A28000CC28C1 /* ECTHTTPClientManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTHTTPClientManager.m; sourceTree = "<group>"; };
+		9C4B74512067A3FB00CC28C1 /* ECTAppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTAppConstants.h; sourceTree = "<group>"; };
+		9C4B74522067A3FB00CC28C1 /* ECTAppConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTAppConstants.m; sourceTree = "<group>"; };
+		9C4B74542067A40900CC28C1 /* ECTUtilityMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTUtilityMethods.h; sourceTree = "<group>"; };
+		9C4B74552067A40900CC28C1 /* ECTUtilityMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTUtilityMethods.m; sourceTree = "<group>"; };
+		9C4B74582067A74400CC28C1 /* ECTForecasterStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTForecasterStore.h; sourceTree = "<group>"; };
+		9C4B74592067A74400CC28C1 /* ECTForecasterStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTForecasterStore.m; sourceTree = "<group>"; };
+		9C4B745E2067B1B600CC28C1 /* ECTWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTWeather.h; sourceTree = "<group>"; };
+		9C4B745F2067B1B600CC28C1 /* ECTWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTWeather.m; sourceTree = "<group>"; };
+		9C4B74642067B22700CC28C1 /* ECTForecastData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTForecastData.h; sourceTree = "<group>"; };
+		9C4B74652067B22700CC28C1 /* ECTForecastData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTForecastData.m; sourceTree = "<group>"; };
+		9C4B746A2067ECAB00CC28C1 /* ECTForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTForecast.h; sourceTree = "<group>"; };
+		9C4B746B2067ECAB00CC28C1 /* ECTForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTForecast.m; sourceTree = "<group>"; };
+		9C4B748220680D4400CC28C1 /* ECTWeeklyForecastCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTWeeklyForecastCell.h; sourceTree = "<group>"; };
+		9C4B748320680D4400CC28C1 /* ECTWeeklyForecastCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTWeeklyForecastCell.m; sourceTree = "<group>"; };
+		9C4B74852069466000CC28C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9C4B748A20697AB200CC28C1 /* WeatherForecaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeatherForecaster.entitlements; sourceTree = "<group>"; };
+		9C4B748E2069B90100CC28C1 /* ECTArchiveWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTArchiveWeather.h; sourceTree = "<group>"; };
+		9C4B748F2069B90100CC28C1 /* ECTArchiveWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTArchiveWeather.m; sourceTree = "<group>"; };
+		9C4B74912069BAA900CC28C1 /* ECTWeatherArchiveStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTWeatherArchiveStore.h; sourceTree = "<group>"; };
+		9C4B74922069BAA900CC28C1 /* ECTWeatherArchiveStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTWeatherArchiveStore.m; sourceTree = "<group>"; };
+		9CDF4EEE206ACD02008887DB /* ECTDailyForecastCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTDailyForecastCell.h; sourceTree = "<group>"; };
+		9CDF4EEF206ACD02008887DB /* ECTDailyForecastCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTDailyForecastCell.m; sourceTree = "<group>"; };
+		9CDF4EF0206ACD02008887DB /* ECTDailyForecastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ECTDailyForecastCell.xib; sourceTree = "<group>"; };
+		9CDF4EF6206ACEC8008887DB /* ECTDailyForecastTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTDailyForecastTVC.h; sourceTree = "<group>"; };
+		9CDF4EF7206ACEC8008887DB /* ECTDailyForecastTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTDailyForecastTVC.m; sourceTree = "<group>"; };
+		D6A5A20CB0584F121904EE4F /* Pods_WeatherForecaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherForecaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +84,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4B74862069466000CC28C1 /* CoreData.framework in Frameworks */,
+				97222C08C3A61908DFF98CEA /* Pods_WeatherForecaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6850175D40CCC6E25495BF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B74852069466000CC28C1 /* CoreData.framework */,
+				D6A5A20CB0584F121904EE4F /* Pods_WeatherForecaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C39C92A2065794B0036BD9E = {
 			isa = PBXGroup;
 			children = (
+				9C4B741E2067961000CC28C1 /* Networking */,
+				9C4B74572067A70500CC28C1 /* Store */,
+				9C4B741C206795EC00CC28C1 /* Model */,
+				9C4B741D2067960100CC28C1 /* ViewControllers */,
+				9C4B741F2067966E00CC28C1 /* Helper */,
 				9C39C9352065794B0036BD9E /* WeatherForecaster */,
 				9C39C9342065794B0036BD9E /* Products */,
+				C818516E5A30C808EC3EE53A /* Pods */,
+				6850175D40CCC6E25495BF2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +127,7 @@
 		9C39C9352065794B0036BD9E /* WeatherForecaster */ = {
 			isa = PBXGroup;
 			children = (
+				9C4B748A20697AB200CC28C1 /* WeatherForecaster.entitlements */,
 				9C39C9362065794B0036BD9E /* AppDelegate.h */,
 				9C39C9372065794B0036BD9E /* AppDelegate.m */,
 				9C39C9392065794B0036BD9E /* WeatherForecaster-Prefix.pch */,
@@ -66,6 +139,97 @@
 			path = WeatherForecaster;
 			sourceTree = "<group>";
 		};
+		9C4B741C206795EC00CC28C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B745E2067B1B600CC28C1 /* ECTWeather.h */,
+				9C4B745F2067B1B600CC28C1 /* ECTWeather.m */,
+				9C4B746A2067ECAB00CC28C1 /* ECTForecast.h */,
+				9C4B746B2067ECAB00CC28C1 /* ECTForecast.m */,
+				9C4B74642067B22700CC28C1 /* ECTForecastData.h */,
+				9C4B74652067B22700CC28C1 /* ECTForecastData.m */,
+				9C4B748E2069B90100CC28C1 /* ECTArchiveWeather.h */,
+				9C4B748F2069B90100CC28C1 /* ECTArchiveWeather.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C4B741D2067960100CC28C1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B7424206798B300CC28C1 /* ECTWeeklyForecastTVC.h */,
+				9C4B7425206798B300CC28C1 /* ECTWeeklyForecastTVC.m */,
+				9CDF4EF6206ACEC8008887DB /* ECTDailyForecastTVC.h */,
+				9CDF4EF7206ACEC8008887DB /* ECTDailyForecastTVC.m */,
+				9C4B7423206797F800CC28C1 /* Custom Cells */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9C4B741E2067961000CC28C1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B743420679C1500CC28C1 /* ECTReachabilityManager.h */,
+				9C4B743520679C1500CC28C1 /* ECTReachabilityManager.m */,
+				9C4B744E2067A28000CC28C1 /* ECTHTTPClientManager.h */,
+				9C4B744F2067A28000CC28C1 /* ECTHTTPClientManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9C4B741F2067966E00CC28C1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B743020679BB400CC28C1 /* Reachability */,
+				9C4B74512067A3FB00CC28C1 /* ECTAppConstants.h */,
+				9C4B74522067A3FB00CC28C1 /* ECTAppConstants.m */,
+				9C4B74542067A40900CC28C1 /* ECTUtilityMethods.h */,
+				9C4B74552067A40900CC28C1 /* ECTUtilityMethods.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9C4B7423206797F800CC28C1 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B748220680D4400CC28C1 /* ECTWeeklyForecastCell.h */,
+				9C4B748320680D4400CC28C1 /* ECTWeeklyForecastCell.m */,
+				9CDF4EEE206ACD02008887DB /* ECTDailyForecastCell.h */,
+				9CDF4EEF206ACD02008887DB /* ECTDailyForecastCell.m */,
+				9CDF4EF0206ACD02008887DB /* ECTDailyForecastCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		9C4B743020679BB400CC28C1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B742C20679BA000CC28C1 /* Reachability.h */,
+				9C4B742D20679BA000CC28C1 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		9C4B74572067A70500CC28C1 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B74582067A74400CC28C1 /* ECTForecasterStore.h */,
+				9C4B74592067A74400CC28C1 /* ECTForecasterStore.m */,
+				9C4B74912069BAA900CC28C1 /* ECTWeatherArchiveStore.h */,
+				9C4B74922069BAA900CC28C1 /* ECTWeatherArchiveStore.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		C818516E5A30C808EC3EE53A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB98A3D77FDDFB393E522BF /* Pods-WeatherForecaster.debug.xcconfig */,
+				34227352BA40A5B7256770E1 /* Pods-WeatherForecaster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -73,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C39C9452065794B0036BD9E /* Build configuration list for PBXNativeTarget "WeatherForecaster" */;
 			buildPhases = (
+				C568CDC3E2E1427E848D3A3F /* [CP] Check Pods Manifest.lock */,
 				9C39C92F2065794B0036BD9E /* Sources */,
 				9C39C9302065794B0036BD9E /* Frameworks */,
 				9C39C9312065794B0036BD9E /* Resources */,
+				EB838D9F12F77AB637C508DE /* [CP] Embed Pods Frameworks */,
+				CDD195E3DD0F5AD5B68C47CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +265,14 @@
 					9C39C9322065794B0036BD9E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,18 +302,88 @@
 				9C39C93F2065794B0036BD9E /* LaunchScreen.storyboard in Resources */,
 				9C39C93C2065794B0036BD9E /* Assets.xcassets in Resources */,
 				9C39C93A2065794B0036BD9E /* WeatherForecaster-Prefix.pch in Resources */,
+				9CDF4EF2206ACD02008887DB /* ECTDailyForecastCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C568CDC3E2E1427E848D3A3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherForecaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD195E3DD0F5AD5B68C47CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherForecaster/Pods-WeatherForecaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB838D9F12F77AB637C508DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeatherForecaster/Pods-WeatherForecaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherForecaster/Pods-WeatherForecaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C39C92F2065794B0036BD9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4B74902069B90100CC28C1 /* ECTArchiveWeather.m in Sources */,
+				9C4B748420680D4400CC28C1 /* ECTWeeklyForecastCell.m in Sources */,
+				9C4B7426206798B300CC28C1 /* ECTWeeklyForecastTVC.m in Sources */,
+				9C4B743620679C1500CC28C1 /* ECTReachabilityManager.m in Sources */,
+				9CDF4EF8206ACEC8008887DB /* ECTDailyForecastTVC.m in Sources */,
+				9C4B74662067B22700CC28C1 /* ECTForecastData.m in Sources */,
 				9C39C9422065794B0036BD9E /* main.m in Sources */,
+				9C4B74532067A3FB00CC28C1 /* ECTAppConstants.m in Sources */,
+				9CDF4EF1206ACD02008887DB /* ECTDailyForecastCell.m in Sources */,
+				9C4B74602067B1B600CC28C1 /* ECTWeather.m in Sources */,
+				9C4B745A2067A74400CC28C1 /* ECTForecasterStore.m in Sources */,
 				9C39C9382065794B0036BD9E /* AppDelegate.m in Sources */,
+				9C4B74502067A28000CC28C1 /* ECTHTTPClientManager.m in Sources */,
+				9C4B746C2067ECAB00CC28C1 /* ECTForecast.m in Sources */,
+				9C4B742E20679BA000CC28C1 /* Reachability.m in Sources */,
+				9C4B74562067A40900CC28C1 /* ECTUtilityMethods.m in Sources */,
+				9C4B74932069BAA900CC28C1 /* ECTWeatherArchiveStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,28 +507,36 @@
 		};
 		9C39C9462065794B0036BD9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB98A3D77FDDFB393E522BF /* Pods-WeatherForecaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WeatherForecaster/WeatherForecaster.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q8FS79D8K5;
 				INFOPLIST_FILE = WeatherForecaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = danieleferemo.WeatherForecaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		9C39C9472065794B0036BD9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34227352BA40A5B7256770E1 /* Pods-WeatherForecaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WeatherForecaster/WeatherForecaster.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q8FS79D8K5;
 				INFOPLIST_FILE = WeatherForecaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = danieleferemo.WeatherForecaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

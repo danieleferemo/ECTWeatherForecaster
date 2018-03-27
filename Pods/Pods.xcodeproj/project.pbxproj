@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009C79BE88C2F4C986644CD3E0B088C2 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8206EA4814DDD3A11C0BB63AE7270690 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06697BBB6E6D73B5F021E6DACAC5DE45 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C4BDFC96318B7C6BCBA40D0CA2AFE1 /* JSONAPI.m */; };
+		08D26C03F21328766B7958E56DB87CA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0B1C5725C7BE03D622114275D6FD6EFA /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = E58A6B02B93052F05EC372B6DE9126AF /* JSONModelError.m */; };
+		2AFB0AFA2138181E162CD00669D87FE3 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC01C6096234B7E1BE5DA2E0C01BFBA /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E344E5B627E04368ECC96338E17F26 /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6B53163CA2B1DDF99F95D1BAC1AA82 /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F6913EE3CD6EB8715086F0C9F6A823 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF655EFC0BBA3745B664EAC47601F63A /* JSONValueTransformer.m */; };
+		37FD169854FF4B397051998D611F152A /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEE895AC18B2EE10301E62D08160256 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A3C15891AFB937D6454F32606D9EC8 /* Pods-WeatherForecaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFFBF1588CB38CE8C942B13D2CA079F /* Pods-WeatherForecaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A6216FC50B4540584DA1C45F98F9FD /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5740DBCC140BB977C849736FC03ED8 /* JSONModelClassProperty.m */; };
+		4EB17293737C717D12298CFFE6A67514 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9470BC1898AA41E5BC40D370BFCFA04D /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57FE38F17C0EDD5CF73B2A084A17586E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A32165362CC427B5B1FFF114554520B7 /* JSONHTTPClient.m */; };
+		58388F773008AF671CE67FE1C902E6CB /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3E9A2B376786EF649B87645E08325C /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F5906B58272E07A0850248867562581 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9274F769FAD0C6150AAB14568D70DA /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		772785574BC1059C2913576CBFF3AD17 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AECF8252D6CF289B801061729421BD23 /* JSONKeyMapper.m */; };
+		7F66E5779B29E0BC17D565DAD7CDEC1B /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAB0D29B784EF1FC8474642B4CD0B89 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8060025235D93F30A5F10B412DD0822E /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B16A6165E2C929708DF9D1DA4A8A129D /* JSONModel-dummy.m */; };
+		98F19C682AC68E9D2E2052F709F42AF9 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C03CABA67BAA1A37B53F70091DE6C /* JSONModel+networking.m */; };
+		D4E9B3DE75C23D365E255B6212CB1CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DD8E57493F13836728E14CA6B41572F2 /* Pods-WeatherForecaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 884A3248ABADCF3895D8E62FDFF21171 /* Pods-WeatherForecaster-dummy.m */; };
+		DFA0B0C7EC02135911CACDAFD38BE715 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B295E7412F2E4B792DC5834705FFD /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39D9A942BCE728467A42C478816966F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 378AEACCB73A56874E59895469143734 /* JSONModel.m */; };
+		E3C47E114E924D2F331F9A3F122AEE5C /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DB64FB04FDC27111FD4F495B22D8DD /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20A5696056580677771F56F502F3FDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3688684BF42A20A8998F31DDA51A49;
+			remoteInfo = JSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BFFBF1588CB38CE8C942B13D2CA079F /* Pods-WeatherForecaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherForecaster-umbrella.h"; sourceTree = "<group>"; };
+		0CC63BE632B5405E13811B0BFA8F681B /* Pods-WeatherForecaster-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherForecaster-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DC85CA8DDF8FBCDB0781D5B7DD30C0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9274F769FAD0C6150AAB14568D70DA /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		20DB64FB04FDC27111FD4F495B22D8DD /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		27BA290DC98649D755DE7122402FA72B /* Pods-WeatherForecaster-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherForecaster-frameworks.sh"; sourceTree = "<group>"; };
+		378AEACCB73A56874E59895469143734 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		54F70BDD5A4F261751D24ABBD3F7D5F0 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		5DAB0D29B784EF1FC8474642B4CD0B89 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		63874291A4DE84FB4405D0CE93897F0C /* Pods-WeatherForecaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherForecaster.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69A07885E9A6BDB23D78FEE057F54023 /* Pods-WeatherForecaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherForecaster.release.xcconfig"; sourceTree = "<group>"; };
+		73B40DF09C15DF56AE705963F57F85F9 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		8206EA4814DDD3A11C0BB63AE7270690 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		85154747E9348F5263BE2D8F88DE3D70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884A3248ABADCF3895D8E62FDFF21171 /* Pods-WeatherForecaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherForecaster-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9470BC1898AA41E5BC40D370BFCFA04D /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		9A9C03CABA67BAA1A37B53F70091DE6C /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		9BEE895AC18B2EE10301E62D08160256 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		9DAF5E9B59211A2306855CF6E5DACBB8 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32165362CC427B5B1FFF114554520B7 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		A50B295E7412F2E4B792DC5834705FFD /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		A820AAAF2732A70AB0DE98885785190E /* Pods-WeatherForecaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherForecaster.modulemap"; sourceTree = "<group>"; };
+		AE19378EEDC7E34DB37BD572CCD37992 /* Pods-WeatherForecaster-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherForecaster-resources.sh"; sourceTree = "<group>"; };
+		AE5740DBCC140BB977C849736FC03ED8 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		AECF8252D6CF289B801061729421BD23 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		B16A6165E2C929708DF9D1DA4A8A129D /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		BF655EFC0BBA3745B664EAC47601F63A /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		C59AF217B2C52C60C9FD130D2FDC61AE /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		C5A3BC048B2B62D7ECB94A3722244535 /* Pods_WeatherForecaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeatherForecaster.framework; path = "Pods-WeatherForecaster.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FBC75F2D3058B1A5C67E2BEAD72382 /* Pods-WeatherForecaster-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherForecaster-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA6B53163CA2B1DDF99F95D1BAC1AA82 /* JSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-umbrella.h"; sourceTree = "<group>"; };
+		D1C4BDFC96318B7C6BCBA40D0CA2AFE1 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		E58A6B02B93052F05EC372B6DE9126AF /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		EEC01C6096234B7E1BE5DA2E0C01BFBA /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		FC3E9A2B376786EF649B87645E08325C /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F13FDE48FAA625D37D626F69DA46819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9B3DE75C23D365E255B6212CB1CB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECEB7BAFA269623AE3738B919B7BBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D26C03F21328766B7958E56DB87CA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		444AD95FD861CF35A0CB5C2CAFC8A740 /* Pods-WeatherForecaster */ = {
+			isa = PBXGroup;
+			children = (
+				85154747E9348F5263BE2D8F88DE3D70 /* Info.plist */,
+				A820AAAF2732A70AB0DE98885785190E /* Pods-WeatherForecaster.modulemap */,
+				C8FBC75F2D3058B1A5C67E2BEAD72382 /* Pods-WeatherForecaster-acknowledgements.markdown */,
+				0CC63BE632B5405E13811B0BFA8F681B /* Pods-WeatherForecaster-acknowledgements.plist */,
+				884A3248ABADCF3895D8E62FDFF21171 /* Pods-WeatherForecaster-dummy.m */,
+				27BA290DC98649D755DE7122402FA72B /* Pods-WeatherForecaster-frameworks.sh */,
+				AE19378EEDC7E34DB37BD572CCD37992 /* Pods-WeatherForecaster-resources.sh */,
+				0BFFBF1588CB38CE8C942B13D2CA079F /* Pods-WeatherForecaster-umbrella.h */,
+				63874291A4DE84FB4405D0CE93897F0C /* Pods-WeatherForecaster.debug.xcconfig */,
+				69A07885E9A6BDB23D78FEE057F54023 /* Pods-WeatherForecaster.release.xcconfig */,
+			);
+			name = "Pods-WeatherForecaster";
+			path = "Target Support Files/Pods-WeatherForecaster";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E90606205BE2F0EAA285C9306DD5B1BD /* Pods */,
+				AD0985ED022F80E087D8F833C8714A89 /* Products */,
+				90B30CA5DE07AF603F6EA0D5E73EA956 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90B30CA5DE07AF603F6EA0D5E73EA956 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				444AD95FD861CF35A0CB5C2CAFC8A740 /* Pods-WeatherForecaster */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AAEC248A8E670C89A9FC23873EEA224B /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				9470BC1898AA41E5BC40D370BFCFA04D /* JSONAPI.h */,
+				D1C4BDFC96318B7C6BCBA40D0CA2AFE1 /* JSONAPI.m */,
+				5DAB0D29B784EF1FC8474642B4CD0B89 /* JSONHTTPClient.h */,
+				A32165362CC427B5B1FFF114554520B7 /* JSONHTTPClient.m */,
+				FC3E9A2B376786EF649B87645E08325C /* JSONKeyMapper.h */,
+				AECF8252D6CF289B801061729421BD23 /* JSONKeyMapper.m */,
+				9BEE895AC18B2EE10301E62D08160256 /* JSONModel.h */,
+				378AEACCB73A56874E59895469143734 /* JSONModel.m */,
+				20DB64FB04FDC27111FD4F495B22D8DD /* JSONModel+networking.h */,
+				9A9C03CABA67BAA1A37B53F70091DE6C /* JSONModel+networking.m */,
+				8206EA4814DDD3A11C0BB63AE7270690 /* JSONModelClassProperty.h */,
+				AE5740DBCC140BB977C849736FC03ED8 /* JSONModelClassProperty.m */,
+				EEC01C6096234B7E1BE5DA2E0C01BFBA /* JSONModelError.h */,
+				E58A6B02B93052F05EC372B6DE9126AF /* JSONModelError.m */,
+				1F9274F769FAD0C6150AAB14568D70DA /* JSONModelLib.h */,
+				A50B295E7412F2E4B792DC5834705FFD /* JSONValueTransformer.h */,
+				BF655EFC0BBA3745B664EAC47601F63A /* JSONValueTransformer.m */,
+				DE8CD5AD061866553E0A15F0BFFC08BB /* Support Files */,
+			);
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		AD0985ED022F80E087D8F833C8714A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DAF5E9B59211A2306855CF6E5DACBB8 /* JSONModel.framework */,
+				C5A3BC048B2B62D7ECB94A3722244535 /* Pods_WeatherForecaster.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE8CD5AD061866553E0A15F0BFFC08BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DC85CA8DDF8FBCDB0781D5B7DD30C0B /* Info.plist */,
+				54F70BDD5A4F261751D24ABBD3F7D5F0 /* JSONModel.modulemap */,
+				C59AF217B2C52C60C9FD130D2FDC61AE /* JSONModel.xcconfig */,
+				B16A6165E2C929708DF9D1DA4A8A129D /* JSONModel-dummy.m */,
+				73B40DF09C15DF56AE705963F57F85F9 /* JSONModel-prefix.pch */,
+				CA6B53163CA2B1DDF99F95D1BAC1AA82 /* JSONModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		E90606205BE2F0EAA285C9306DD5B1BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC248A8E670C89A9FC23873EEA224B /* JSONModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03754EA4989A618072E15924401473F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A3C15891AFB937D6454F32606D9EC8 /* Pods-WeatherForecaster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF7227F5BD0440E9DF598DF26EC3891 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB17293737C717D12298CFFE6A67514 /* JSONAPI.h in Headers */,
+				7F66E5779B29E0BC17D565DAD7CDEC1B /* JSONHTTPClient.h in Headers */,
+				58388F773008AF671CE67FE1C902E6CB /* JSONKeyMapper.h in Headers */,
+				E3C47E114E924D2F331F9A3F122AEE5C /* JSONModel+networking.h in Headers */,
+				36E344E5B627E04368ECC96338E17F26 /* JSONModel-umbrella.h in Headers */,
+				37FD169854FF4B397051998D611F152A /* JSONModel.h in Headers */,
+				009C79BE88C2F4C986644CD3E0B088C2 /* JSONModelClassProperty.h in Headers */,
+				2AFB0AFA2138181E162CD00669D87FE3 /* JSONModelError.h in Headers */,
+				6F5906B58272E07A0850248867562581 /* JSONModelLib.h in Headers */,
+				DFA0B0C7EC02135911CACDAFD38BE715 /* JSONValueTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A13D63E907D9E4EDC2C75C994C10A43 /* Pods-WeatherForecaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3CD47031EF159731B6002F29CE574C /* Build configuration list for PBXNativeTarget "Pods-WeatherForecaster" */;
+			buildPhases = (
+				51AE696F9530F25162E0914966B00A16 /* Sources */,
+				5ECEB7BAFA269623AE3738B919B7BBB9 /* Frameworks */,
+				03754EA4989A618072E15924401473F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2483EDC364407E9ABA6A2638D6767AD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherForecaster";
+			productName = "Pods-WeatherForecaster";
+			productReference = C5A3BC048B2B62D7ECB94A3722244535 /* Pods_WeatherForecaster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC3688684BF42A20A8998F31DDA51A49 /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D16BF2938703D3A0079C402F5E75D8 /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				CF525CD81327D7C4B38AF818D91B35A1 /* Sources */,
+				0F13FDE48FAA625D37D626F69DA46819 /* Frameworks */,
+				BBF7227F5BD0440E9DF598DF26EC3891 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = 9DAF5E9B59211A2306855CF6E5DACBB8 /* JSONModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AD0985ED022F80E087D8F833C8714A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3688684BF42A20A8998F31DDA51A49 /* JSONModel */,
+				1A13D63E907D9E4EDC2C75C994C10A43 /* Pods-WeatherForecaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51AE696F9530F25162E0914966B00A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8E57493F13836728E14CA6B41572F2 /* Pods-WeatherForecaster-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF525CD81327D7C4B38AF818D91B35A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06697BBB6E6D73B5F021E6DACAC5DE45 /* JSONAPI.m in Sources */,
+				57FE38F17C0EDD5CF73B2A084A17586E /* JSONHTTPClient.m in Sources */,
+				772785574BC1059C2913576CBFF3AD17 /* JSONKeyMapper.m in Sources */,
+				98F19C682AC68E9D2E2052F709F42AF9 /* JSONModel+networking.m in Sources */,
+				8060025235D93F30A5F10B412DD0822E /* JSONModel-dummy.m in Sources */,
+				E39D9A942BCE728467A42C478816966F /* JSONModel.m in Sources */,
+				40A6216FC50B4540584DA1C45F98F9FD /* JSONModelClassProperty.m in Sources */,
+				0B1C5725C7BE03D622114275D6FD6EFA /* JSONModelError.m in Sources */,
+				37F6913EE3CD6EB8715086F0C9F6A823 /* JSONValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2483EDC364407E9ABA6A2638D6767AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = DC3688684BF42A20A8998F31DDA51A49 /* JSONModel */;
+			targetProxy = 20A5696056580677771F56F502F3FDC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AFC2F14F9FA28152A047252340D6C333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C59AF217B2C52C60C9FD130D2FDC61AE /* JSONModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D923E0AC10E733C03174B0BD6B7E5559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A07885E9A6BDB23D78FEE057F54023 /* Pods-WeatherForecaster.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherForecaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherForecaster/Pods-WeatherForecaster.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeatherForecaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FCE6218454D069D4167A69C74437A9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C59AF217B2C52C60C9FD130D2FDC61AE /* JSONModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEA2051EBF1FD03F09861B894DBB5E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63874291A4DE84FB4405D0CE93897F0C /* Pods-WeatherForecaster.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherForecaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherForecaster/Pods-WeatherForecaster.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeatherForecaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3CD47031EF159731B6002F29CE574C /* Build configuration list for PBXNativeTarget "Pods-WeatherForecaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA2051EBF1FD03F09861B894DBB5E37 /* Debug */,
+				D923E0AC10E733C03174B0BD6B7E5559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D16BF2938703D3A0079C402F5E75D8 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC2F14F9FA28152A047252340D6C333 /* Debug */,
+				FCE6218454D069D4167A69C74437A9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
